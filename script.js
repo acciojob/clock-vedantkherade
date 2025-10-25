@@ -4,4 +4,4 @@ let timer = document.getElementById("timer");
 setInterval(() => {
 	let x = new Date();
 	timer.textContent = x.toLocaleString();
-})
+},1000)
